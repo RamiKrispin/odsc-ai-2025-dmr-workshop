@@ -14,5 +14,5 @@ ENV RUFF_VER=$RUFF_VER
 COPY install_uv.sh requirements.txt settings/
 RUN bash ./settings/install_uv.sh $VENV_NAME $PYTHON_VER $RUFF_VER
 RUN SNIPPET="export PROMPT_COMMAND='history -a' && export HISTFILE=/root/.zsh_history && export HISTIGNORE='ls'" \
-    && echo "export HISTFILESIZE=1000" >> "/root/.bashrc"\
+    && echo "export HISTFILESIZE=1000" >> "/root/.zshrc"\
     && echo "$SNIPPET" >> "/root/.zshrc"

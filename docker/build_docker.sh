@@ -2,13 +2,13 @@
 
 # Image settings
 user_name=rkrispin
-project_name="template"
+project_name="odsc-ai-dmr-workshop"
 image_label=python-dev-$project_name
 tag=0.0.1
 python_ver=3.11
 venv_name="python-$python_ver-dev"
-ruff_ver="0.12.0"
-dockerfile="Dockerfile_Dev"
+ruff_ver="0.14.0"
+dockerfile="Dockerfile"
 image_name="rkrispin/$image_label:$tag"
 
 
