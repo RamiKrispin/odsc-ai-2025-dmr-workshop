@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-VENV_NAME=$1
-PYTHON_VER=$2
-RUFF_VER=$3
 # Install Ruff
 curl -LsSf https://astral.sh/ruff/$RUFF_VER/install.sh | sh
 
@@ -17,4 +14,4 @@ uv venv /opt/$VENV_NAME --python $PYTHON_VER \
 
 source /opt/$VENV_NAME/bin/activate
 
-uv pip install  --no-cache-dir -r ./settings/requirements.txt
+uv pip install  --no-cache-dir -r ./tmp/requirements.txt

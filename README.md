@@ -24,8 +24,22 @@ When 📆: October 30th, 2025
 To be able to follow along with the workshop, you will need:
 - Docker Desktop (version 4.48.0 and above) is installed on your computer
 - Docker Hub account
+- Hugging Face account (optional)
+
+## Environment
+
+```shell
+uv venv python-3.11-dev --python 3.11
+```
 
 
+``` shell
+source python-3.11-dev/bin/activate
+```
+
+``` shell
+uv pip install  --no-cache-dir -r docker/requirements.txt
+```
 
 ## Workshop Outline
 The workshop will cover the following topics:

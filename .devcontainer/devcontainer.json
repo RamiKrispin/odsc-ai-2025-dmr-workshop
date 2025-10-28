@@ -1,6 +1,6 @@
 {
     "name": "python-dev",
-    "image": "docker.io/rkrispin/python-dev-template:0.0.1",
+    "image": "docker.io/rkrispin/python-dev-odsc-ai-dmr-workshop:0.0.1",
     "customizations": {
         "vscode": {
             "settings": {
