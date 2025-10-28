@@ -22,10 +22,10 @@ When 📆: October 30th, 2025
 ## Prerequisites
 
 To be able to follow along with the workshop, you will need:
-- Docker Desktop (on Mac version 4.40.0 and above, and on Windows version 4.41.0 and above) and Docker Engine on Linux
-- Docker Hub account
-- Hugging Face account (optional)
-- OpenCode (optional)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (on Mac version 4.40.0 and above, and on Windows version 4.41.0 and above) and Docker Engine on Linux
+- [Docker Hub](https://hub.docker.com/) account
+- [Hugging Face](https://huggingface.co/) account (optional)
+- [OpenCode](https://opencode.ai/) (optional)
 
 ## Python Environment
 
