@@ -22,21 +22,24 @@ When 📆: October 30th, 2025
 ## Prerequisites
 
 To be able to follow along with the workshop, you will need:
-- Docker Desktop (version 4.48.0 and above) is installed on your computer
+- Docker Desktop (on Mac version 4.40.0 and above, and on Windows version 4.41.0 and above) and Docker Engine on Linux
 - Docker Hub account
 - Hugging Face account (optional)
+- OpenCode (optional)
 
-## Environment
+## Python Environment
+
+Throughout the workshop, we will demo how to use DMR with Python. If you are using Docker, this repo has Dev Containers settings, and you can run the workshop examples inside a container. Otherwise, you can use the requirements.txt file under the docker folder to set a local virtual environment using the below code using [UV](https://docs.astral.sh/uv/):
 
 ```shell
 uv venv python-3.11-dev --python 3.11
 ```
 
-
+Activate the environment:
 ``` shell
 source python-3.11-dev/bin/activate
 ```
-
+And install the required libraries
 ``` shell
 uv pip install  --no-cache-dir -r docker/requirements.txt
 ```
@@ -47,6 +50,7 @@ The workshop will cover the following topics:
 - Models - learn how to download LLMs from Docker Hub and Hugging Face
 - Running models locally - review how to run LLMs locally via the CLI
 - Python workflow - use the OpenAI Python SDK to call LLMs locally in Python
+- Running OpenCode with DMR
 
 
 ## License
