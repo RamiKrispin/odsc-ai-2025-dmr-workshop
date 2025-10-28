@@ -1,6 +1,6 @@
 # Running LLMs Locally with Docker Model Runner
 
-Materials for the "Running LLMs Locally with Docker Model Runner" workshop at the [ODSC AI West 2025](https://odsc.ai/) conference. 
+Materials for the "Running LLMs Locally with Docker Model Runner" workshop at the [ODSC AI West 2025](https://odsc.ai/) conference. This workshop is based on a set of tutorials from the [AIOps Newsletter](https://theaiops.substack.com/). 
 
 The [Docker Model Runner](https://docs.docker.com/ai/model-runner/) (DMR) - a Docker Desktop feature that enables the run of Large Language Models natively with Docker Desktop.
 
@@ -51,6 +51,7 @@ The workshop will cover the following topics:
 - Running models locally - review how to run LLMs locally via the CLI
 - Python workflow - use the OpenAI Python SDK to call LLMs locally in Python
 - Running OpenCode with DMR
+
 
 
 ## License
